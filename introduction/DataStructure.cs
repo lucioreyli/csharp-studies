@@ -55,4 +55,11 @@ namespace DataStructure {
       WriteLine($"The queue have {queue.Count} items.");
     }
   }
+
+  class TupleExample {
+    public void Init() {
+      (string name, int age) person = ("Filipe", 16);
+      WriteLine(person);
+    }
+  }
 }
